@@ -20,7 +20,7 @@ class EmailExample2 extends WebPage
 		//Advanced Example
 		$emailHelper2 = new EmailHelper(
 							array('john@xyz.com',	//From
-								  'mary@abc.com'), 	//Reply-To
+							      'mary@abc.com'), 	//Reply-To
 		//Note that each index can also be an array of strings
 							array('jake@abc.com',	//To
 							      'sim@abc.com',	//CC
