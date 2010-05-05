@@ -77,22 +77,22 @@ class EmailHelper extends Object
 			$this->SetRichMessage($message[1]);
 		}
 	}
-	function SetFrom($email)			{$this->From = $email;}
-	function GetFrom()					{return $this->From;}	
-	function SetReplyTo($email)			{$this->ReplyTo = $email;}
-	function GetReplyTo()				{return $this->ReplyTo;}
-	function SetSubject($subject)		{$this->Subject = $subject;}
-	function GetSubject()				{return $this->Subject;}	
-	function SetMessage($message)		{$this->Message = $message;}
-	function GetMessage()				{return $this->Message;}	
-	function SetRichMessage($message)	{$this->RichMessage = $message;}
-	function GetRichMessage()			{return $this->RichMessage;}
-	function SetTo($email)				{return $this->SetInitialEmail($email, $this->To);}
-	function SetCC($email)				{return $this->SetInitialEmail($email, $this->CC);}
-	function SetBCC($email)				{return $this->SetInitialEmail($email, $this->BCC);}
-	function GetTo()					{return $this->To;}
-	function GetCC()					{return $this->CC;}
-	function GetBCC()					{return $this->BCC;}
+	function SetFrom($email)            {$this->From = $email;}
+	function GetFrom()                  {return $this->From;}	
+	function SetReplyTo($email)         {$this->ReplyTo = $email;}
+	function GetReplyTo()               {return $this->ReplyTo;}
+	function SetSubject($subject)       {$this->Subject = $subject;}
+	function GetSubject()               {return $this->Subject;}	
+	function SetMessage($message)       {$this->Message = $message;}
+	function GetMessage()               {return $this->Message;}	
+	function SetRichMessage($message)   {$this->RichMessage = $message;}
+	function GetRichMessage()           {return $this->RichMessage;}
+	function SetTo($email)              {return $this->SetInitialEmail($email, $this->To);}
+	function SetCC($email)              {return $this->SetInitialEmail($email, $this->CC);}
+	function SetBCC($email)             {return $this->SetInitialEmail($email, $this->BCC);}
+	function GetTo()                    {return $this->To;}
+	function GetCC()                    {return $this->CC;}
+	function GetBCC()                   {return $this->BCC;}
 	/**
 	* Allows you to set a different Date & Time for the e-mail date.
 	* The default is the current date & time.
