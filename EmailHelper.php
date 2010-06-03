@@ -76,6 +76,8 @@ class EmailHelper extends Object
 			$this->SetMessage($message[0]);
 			$this->SetRichMessage($message[1]);
 		}
+		else
+			$this->SetMessage($message);
 	}
 	function SetFrom($email)            {$this->From = $email;}
 	function GetFrom()                  {return $this->From;}	
